@@ -1,0 +1,48 @@
+
+* {
+    margin-left:0;
+    padding:0;
+    box-sizing: border-box;
+    width: 90%;
+    }
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+section {
+    font-size: 2rem;
+    border: 2px solid black;
+}
+section ul li {
+    list-style: none;
+}
+li {
+    font-size: 0.8em;
+    line-height: 1.5rem;
+}
+section ul {
+    padding-inline-start: 1.2em;
+}
+.Dogs li::before {
+    content: "🐶";
+}
+.Cats li::before {
+    content: "🐯";
+}
+.Birds li::before {
+    content: "🦜";
+}
+/*Es geht auch mit dem Befehl "list-style-type:"
+Dieser definiert das Aufzählungssymbol vor dem jeweiligen Wort./  - es gibt viele davon, u.a.: none, square, upper-greek etc. */
+
+.Snakes li {
+    list-style-type: "🪱";
+}
+/*.Lizards li::before {
+    content: "🦎";
+}
+*/
+.Lizards li {
+    list-style-type: "😅";
+}
